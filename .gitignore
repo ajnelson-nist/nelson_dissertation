@@ -1,0 +1,10 @@
+.DS_Store
+*.aux
+*.blg
+*.lof
+*.log
+*.lot
+*.pdf
+*.toc
+*.png
+__pycache__

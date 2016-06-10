@@ -1,0 +1,3 @@
+[submodule "deps/results"]
+	path = deps/results
+	url = https://github.com/ajnelson-nist/software_signature_search_results.git

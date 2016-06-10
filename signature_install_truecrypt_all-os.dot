@@ -1,0 +1,25 @@
+digraph "sample" {
+	rankdir = "TB";
+
+	An [label="Windows XP"];
+	Bn [label="Windows 7"];
+	C0 [label="TrueCrypt\non Windows XP\nInstall" penwidth=5];
+	D0 [label="Firefox\non Windows XP\nInstall"];
+	E0 [label="TrueCrypt\non Windows 7\nInstall" penwidth=5];
+	F0 [label="Firefox\non Windows 7\nInstall"];
+
+	C1 [label="TrueCrypt\non Windows XP\nRun"];
+	D1 [label="Firefox\non Windows XP\nRun"];
+	E1 [label="TrueCrypt\non Windows 7\nRun"];
+	F1 [label="Firefox\non Windows 7\nRun"];
+
+	An -> C0 [penwidth=5];
+	An -> D0;
+	Bn -> E0 [penwidth=5];
+	Bn -> F0;
+
+	C0 -> C1;
+	D0 -> D1;
+	E0 -> E1;
+	F0 -> F1;
+}

@@ -1,0 +1,67 @@
+
+//http://www.graphviz.org/content/fdpclust
+
+digraph diskprint_workflow {
+	rankdir=LR;
+	
+	DISKIMAGE0 [label = "0.\nBaseline"];
+	DISKIMAGE1 [label = "1.\nInstalled"];
+	DISKIMAGE2 [label = "2.\nRun"];
+
+	subgraph cluster0 {
+		label = "Individual disk results 0";
+		FIWALK0 [label = "Fiwalk"];
+		RE0 [label = "RegXML\nExtractor"];
+		REGPERL0 [label = "Analyze hives\nwith RegRipper"];
+	}
+
+	subgraph cluster1 {
+		label = "Individual disk results 1";
+		FIWALK1 [label = "Fiwalk"];
+		RE1 [label = "RegXML\nExtractor"];
+		REGPERL1 [label = "Analyze hives\nwith RegRipper"];
+	}
+
+	subgraph cluster2 {
+		label = "Individual disk results 2";
+		FIWALK2 [label = "Fiwalk"];
+		RE2 [label = "RegXML\nExtractor"];
+		REGPERL2 [label = "Analyze hives\nwith RegRipper"];
+	}
+
+	subgraph cluster01 {
+		label = "Differences from 0 to 1";
+		MAKEREGDIF01 [label = "Make list of new\nRegistry cells"];
+	}
+
+	subgraph cluster12 {
+		label = "Differences from 1 to 2";
+		MAKEREGDIF12 [label = "Make list of new\nRegistry cells"];
+	}
+
+	subgraph cluster012 {
+		label = "Whole-sequence results";
+		EXPORT [label = "Export results\nto Postgres"];
+	}
+
+
+	DISKIMAGE0 -> FIWALK0;
+	FIWALK0 -> RE0;
+	RE0 -> REGPERL0;
+
+	DISKIMAGE1 -> FIWALK1;
+	FIWALK1 -> RE1;
+	RE1 -> REGPERL1;
+
+	DISKIMAGE2 -> FIWALK2;
+	FIWALK2 -> RE2;
+	RE2 -> REGPERL2;
+
+	RE0 -> MAKEREGDIF01;
+	RE1 -> MAKEREGDIF01;
+	RE1 -> MAKEREGDIF12;
+	RE2 -> MAKEREGDIF12;
+
+	MAKEREGDIF01 -> EXPORT;
+	MAKEREGDIF12 -> EXPORT;
+}

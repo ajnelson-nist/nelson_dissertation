@@ -1,0 +1,35 @@
+digraph "flow" {
+  1 [label="Training disks"];
+  2 [label="Registry deltas"];
+  3 [label="Ground truth"];
+  4 [label="Cell parents"];
+  5 [label="Stop list\n(Baselines)"];
+  6 [label="Stop list\n(Sym. diffs.)"];
+  7 [label="TFIDF matrix"];
+  11 [label="TFIDF matrix\n(Sym. diffs)"];
+  8 [label="Queries"];
+  9 [label="Query scores"];
+  10 [label="Signature Searcher"];
+
+  1 -> 2;
+  1 -> 4;
+  4 -> 5;
+  7 -> 6;
+  2 -> 7;
+  4 -> 7;
+  5 -> 7;
+  6 -> 8;
+  1 -> 8;
+  4 -> 8;
+  5 -> 8;
+  6 -> 11;
+  11 -> 9;
+  7 -> 9;
+  8 -> 9;
+  3 -> 10;
+  9 -> 10;
+
+  //C/o: https://stackoverflow.com/a/19322033
+  edge[style=invis];
+  1->2->4->5->7->11->8->9->10;
+}

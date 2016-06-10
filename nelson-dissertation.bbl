@@ -1,0 +1,449 @@
+\begin{thebibliography}{10}
+
+\bibitem{agrawal:fast07}
+Nitin Agrawal, William~J. Bolosky, John~R. Douceur, and Jacob~R. Lorch.
+\newblock A five-year study of file-system metadata.
+\newblock In {\em Proceedings of the 5th USENIX Conference on File and Storage
+  Technologies (FAST)}, pages 31--45, February 2007.
+
+\bibitem{barham:sosp03}
+Paul Barham, Boris Dragovic, Keir Fraser, Steven Hand, Tim Harris, Alex Ho,
+  Rolf Neugebauer, Ian Pratt, and Andrew Warfield.
+\newblock {Xen} and the art of virtualization.
+\newblock In {\em Proceedings of the 19th ACM Symposium on Operating Systems
+  Principles (SOSP '03)}, 2003.
+
+\bibitem{beebe:dfrws14}
+Nicole~Lang Beebe and Lishu Liu.
+\newblock Ranking algorithms for digital forensic string search hits.
+\newblock In {\em Proceedings of the 14th Annual Digital Forensic Research
+  Workshop (DFRWS)}, 2014.
+
+\bibitem{bird:colingacl06}
+Steven Bird.
+\newblock {NLTK}: {The Natural Language Toolkit}.
+\newblock In {\em Proceedings of the COLING/ACL 2006 Interactive Presentation
+  Sessions}, COLING-ACL '06, pages 69--72, Sydney, Australia, 2006. Association
+  for Computational Linguistics.
+
+\bibitem{box:wiley78}
+George E.~P. Box, William~Gordon Hunter, and J.~Stuart Hunter.
+\newblock {\em {Statistics for Experimenters}}.
+\newblock Wiley \& Suns, Inc., 1978.
+
+\bibitem{carrier:addison-wesley05}
+Brian Carrier.
+\newblock {\em File System Forensic Analysis}.
+\newblock Addison-Wesley, 2005.
+
+\bibitem{carvey:syngress09}
+Harlan Carvey.
+\newblock {\em {Windows} forensic analysis}.
+\newblock Elsevier, 2e edition, 2009.
+
+\bibitem{carvey:syngress11}
+Harlan Carvey.
+\newblock {\em {Windows Registry} forensics: advanced digital forensic analysis
+  of the {Windows Registry}}.
+\newblock Elsevier, 2011.
+
+\bibitem{cheng:sigir04}
+Pu-Jen Cheng, Jei-Wen Teng, Ruei-Cheng Chen, Jenq-Haur Wang, Wen-Hsiang Lu, and
+  Lee-Feng Chien.
+\newblock Translating unknown queries with web corpora for cross-language
+  information retrieval.
+\newblock In {\em Proceedings of the 27th Annual International ACM SIGIR
+  Conference on Research and Development in Information Retrieval}, SIGIR '04,
+  pages 146--153, New York, NY, USA, 2004. ACM.
+
+\bibitem{croft:addison-wesley10}
+W.~Bruce Croft, Donald Metzler, and Trevor Strohman.
+\newblock {\em Search Engines: Information Retrieval in Practice}.
+\newblock Addison-Wesley, 2010.
+
+\bibitem{davis:icml06}
+Jesse Davis and Mark Goadrich.
+\newblock The relationship between {Precision}-{Recall} and {ROC} curves.
+\newblock In {\em Proceedings of the 23rd International Conference on Machine
+  Learning}, 2006.
+
+\bibitem{davis:ifip06}
+Mark Davis, Richard Kennedy, Kristina Pyles, Amanda Strickler, and Sujeet
+  Shenoi.
+\newblock Detecting data concealment programs using passive file system
+  analysis.
+\newblock In Martin~S. Olivier and Sujeet Shenoi, editors, {\em Advances in
+  Digital Forensics II}, volume 222 of {\em IFIP Advances in Information and
+  Communication}, pages 171--183. Springer New York, 2006.
+
+\bibitem{douceur:sigmetrics99}
+John~R. Douceur and William~J. Bolosky.
+\newblock A large-scale study of file-system contents.
+\newblock In {\em Proceedings of the 1999 SIGMETRICS Conference on Measurement
+  and Modeling of Computer Systems}, pages 59--70, May 1999.
+
+\bibitem{doyle:bantam03}
+Arthur~Conan Doyle.
+\newblock {\em Sherlock Holmes: The Complete Novels and Stories}, volume~I.
+\newblock Bantam Classic, New York, New York, September 2003.
+
+\bibitem{farrell:acsac08}
+Paul Farrell, Simson~L. Garfinkel, and Douglas White.
+\newblock Practical applications of {Bloom} filters to the {NIST RDS} and hard
+  drive triage.
+\newblock In {\em 2008 Annual Computer Security Applications Conference
+  (ACSAC)}, pages 13--22, December 2008.
+
+\bibitem{garcia:npscs11008}
+Luis~E. {Garcia II}.
+\newblock {Bulk Extractor Windows Prefetch} decoder.
+\newblock Technical Report NPS-CS-11-008, Naval Postgraduate School, August
+  2011.
+
+\bibitem{garfinkel:di12}
+Simson Garfinkel.
+\newblock {Digital Forensics XML} and the {DFXML} toolset.
+\newblock {\em Digital Investigation}, 8(3--4):161--174, February 2012.
+
+\bibitem{garfinkel:computersandsecurity13}
+Simson Garfinkel.
+\newblock Digital media triage with bulk data analysis and bulk\_extractor.
+\newblock {\em Computers \& Security}, 32:57--72, February 2013.
+
+\bibitem{garfinkel:dfrws15}
+Simson Garfinkel and Michael McCarrin.
+\newblock Hash-based carving: Searching media for complete files and file
+  fragments with sector hashing and hashdb.
+\newblock In {\em Proceedings of the 15th Annual Digital Forensic Research
+  Workshop (DFRWS)}, August 2015.
+
+\bibitem{garfinkel:dfrws10a}
+Simson Garfinkel, Alex Nelson, Douglas White, and Vassil Roussev.
+\newblock Using purpose-built functions and block hashes to enable small block
+  and sub-file forensics.
+\newblock In {\em Proceedings of the 10th Annual Digital Forensic Research
+  Workshop (DFRWS)}, August 2010.
+
+\bibitem{garfinkel:dfrws12a}
+Simson Garfinkel, Alex~J. Nelson, and Joel Young.
+\newblock A general strategy for differential forensic analysis.
+\newblock In {\em Proceedings of the 12th Annual Digital Forensic Research
+  Workshop (DFRWS)}, August 2012.
+
+\bibitem{garfinkel:sadfe09}
+Simson~L. Garfinkel.
+\newblock Automating disk forensic processing with {SleuthKit, XML and Python}.
+\newblock In {\em Fourth International IEEE Workshop on Systematic Approaches
+  to Digital Forensic Engineering (SADFE '09)}, pages 73--84, 2009.
+
+\bibitem{garfinkel:dfrws09}
+Simson~L. Garfinkel, Paul Farrell, Vassil Roussev, and George Dinolt.
+\newblock Bringing science to digital forensics with standardized forensic
+  corpora.
+\newblock In {\em Proceedings of the 9th Annual Digital Forensic Research
+  Workshop (DFRWS)}, Quebec, Canada, August 2009.
+
+\bibitem{geiger:dfrws05}
+Matthew Geiger.
+\newblock Evaluating commercial counter-forensic tools.
+\newblock In {\em Proceedings of the 5th Annual Digital Forensic Research
+  Workshop (DFRWS)}, 2005.
+
+\bibitem{harvey:exiftool}
+Phil Harvey.
+\newblock Exiftool.
+\newblock \url{http://www.sno.phy.queensu.ca/~phil/exiftool/}, 2015.
+\newblock Retrieved December 2, 2015.
+
+\bibitem{hillier:msdn96}
+Scott Hillier.
+\newblock The system {Registry}.
+\newblock \url{https://msdn.microsoft.com/en-us/library/ms970651.aspx}, 1996.
+\newblock Retrieved January 28, 2016.
+
+\bibitem{hu:osdfcon14}
+Hongyi Hu and Chad Spensky.
+\newblock Live disk forensics on bare metal.
+\newblock Presentation at 5th Annual Open Source Digital Forensics Conference
+  (OSDFCon 2014), 2014.
+
+\bibitem{jones:dfrws12}
+Brian Jones, Syd Pleno, and Michael Wilkinson.
+\newblock The use of random sampling in investigations involving child abuse
+  material.
+\newblock In {\em Proceedings of the 12th Annual Digital Forensic Research
+  Workshop (DFRWS)}, August 2012.
+
+\bibitem{jones:adfsl16}
+Jim Jones, Tahir Khan, Kathryn Laskey, Alex Nelson, Mary Laamanen, and Douglas
+  White.
+\newblock Inferring previously uninstalled applications from digital traces.
+\newblock In {\em Proceedings of the Conference on Digital Forensics, Security
+  and Law 2016}, pages 113--130, 2016.
+
+\bibitem{hivex}
+Richard W.~M. Jones.
+\newblock hivex - {Windows} {Registry} ``hive'' extraction library.
+\newblock \url{http://libguestfs.org/hivex.3.html}.
+\newblock Retrieved February 23, 2016.
+
+\bibitem{jones:blog20100609}
+Richard W.~M. Jones.
+\newblock Windows {SAM} and hivex.
+\newblock \url{https://rwmj.wordpress.com/2010/06/09/windows-sam-and-hivex/}.
+\newblock Retrieved February 26, 2016.
+
+\bibitem{kalber:imf13}
+Sven K{\"a}lber, Andreas Dewald, and Felix~C. Freiling.
+\newblock Forensic application-fingerprinting based on file system metadata.
+\newblock In {\em Proceedings of the 2013 Seventh International Conference on
+  IT Security Incident Management and IT Forensics}, pages 98--112, 2013.
+
+\bibitem{kim:ccs94}
+Gene~H. Kim and Eugene~H. Spafford.
+\newblock The design and implementation of {Tripwire}: A file system integrity
+  checker.
+\newblock In {\em Proceedings of the 2nd ACM Conference on Computer and
+  Communications Security}, pages 18--29, 1994.
+
+\bibitem{kim:dfrws06}
+Kibom Kim, Sangseo Park, Taejoo Chang, Cheolwon Lee, and Sungjai Baek.
+\newblock Lessons learned from the construction of a {Korean} software
+  reference data set for digital forensics.
+\newblock {\em Digital Investigation}, 6, Supplement:S108 -- S113, 2009.
+\newblock The Proceedings of the Ninth Annual {DFRWS} Conference.
+
+\bibitem{manning:mitpress99}
+Christopher~D. Manning and Hinrich Sch{\"u}tze.
+\newblock {\em Foundations of Statistical Natural Language Processing}.
+\newblock MIT Press, 1999.
+
+\bibitem{marziale:osdfcon14}
+Vico Marziale.
+\newblock {DAMM}: Differential analysis of malware in memory.
+\newblock Presentation at 5th Annual Open Source Digital Forensics Conference
+  (OSDFCon 2014), 2014.
+
+\bibitem{mecklenburg:oreilly04}
+Robert Mecklenburg.
+\newblock {\em Managing Projects with {GNU} {Make}}.
+\newblock O'Reilly Media, Inc., 2004.
+
+\bibitem{meyer:fast11}
+Dutch~T. Meyer and William~J. Bolosky.
+\newblock A study of practical deduplication.
+\newblock In {\em Proceedings of the 9th USENIX Conference on File and Storage
+  Technologies (FAST)}, February 2011.
+
+\bibitem{narayanan:sp08}
+Arvind Narayanan and Vitaly Shmatikov.
+\newblock Robust de-anonymization of large sparse datasets.
+\newblock In {\em 2008 IEEE Symposium on Security and Privacy (SP '08)}, pages
+  111--125, May 2008.
+
+\bibitem{nelson:ifip12}
+Alex Nelson.
+\newblock {RegXML}: {XML} conversion of the {Windows Registry} for forensic
+  processing and distribution.
+\newblock In Gilbert Peterson and Sujeet Shenoi, editors, {\em Advances in
+  Digital Forensics VIII}, IFIP Advances in Information and Communication
+  Technology, pages 51--65. Springer Berlin Heidelberg, 2012.
+
+\bibitem{nelson:rx}
+Alex~J. Nelson.
+\newblock {RegXML Extractor}.
+\newblock \url{https://github.com/ajnelson/regxml_extractor}, 2012.
+\newblock Retrieved February 27, 2016.
+
+\bibitem{nelson:ddb}
+Alex~J. Nelson.
+\newblock Diskprint database.
+\newblock \url{https://github.com/ajnelson/diskprint_database}, 2013.
+\newblock Retrieved February 27, 2016.
+
+\bibitem{nelson:aafs14}
+Alex~J. Nelson, Mary~T. Laamanen, John Tebbutt, and Darrell D.~E. Long.
+\newblock Indexing the {Windows Registry} for software detection.
+\newblock In {\em Proceedings of the American Academy of Forensic Sciences 66th
+  Annual Scientific Meeting}, page 156, Seattle, WA, 2014. American Academy of
+  Forensic Sciences.
+
+\bibitem{norris:mastersthesis09}
+Peter Norris.
+\newblock The internal structure of the {Windows Registry}.
+\newblock Master's thesis, Cranfield University, 2009.
+
+\bibitem{fbi:rcfl2011}
+Federal~Bureau of~Investigation.
+\newblock {Regional Computer Forensics Laboratory Program} annual report fiscal
+  year 2011.
+
+\bibitem{fbi:rcfl2003}
+Federal~Bureau of~Investigation.
+\newblock {Regional Computer Forensics Laboratory Program} fiscal year 2004
+  annual report, 2004.
+
+\bibitem{fbi:rcfl2004}
+Federal~Bureau of~Investigation.
+\newblock {Regional Computer Forensics Laboratory Program} fiscal year 2005
+  annual report, 2005.
+
+\bibitem{fbi:rcfl2005}
+Federal~Bureau of~Investigation.
+\newblock {Regional Computer Forensics Laboratory Program} annual report for
+  fiscal year 2005, May 2006.
+
+\bibitem{fbi:rcfl2006}
+Federal~Bureau of~Investigation.
+\newblock {Regional Computer Forensics Laboratory Program} annual report for
+  fiscal year 2006, 2007.
+
+\bibitem{fbi:rcfl2007}
+Federal~Bureau of~Investigation.
+\newblock {Regional Computer Forensics Laboratory Program} annual report for
+  fiscal year 2007, 2008.
+
+\bibitem{fbi:rcfl2008}
+Federal~Bureau of~Investigation.
+\newblock {Regional Computer Forensics Laboratory Program} annual report for
+  fiscal year 2008, 2009.
+
+\bibitem{fbi:rcfl2009}
+Federal~Bureau of~Investigation.
+\newblock {Regional Computer Forensics Laboratory Program} annual report for
+  fiscal year 2009, May 2010.
+
+\bibitem{fbi:rcfl2010}
+Federal~Bureau of~Investigation.
+\newblock {Regional Computer Forensics Laboratory Program} annual report for
+  fiscal year 2010, May 2011.
+
+\bibitem{fbi:rcfl2012}
+Federal~Bureau of~Investigation.
+\newblock {Regional Computer Forensics Laboratory Program} annual report fiscal
+  year 2012, 2013.
+
+\bibitem{fbi:rcfl2013}
+Federal~Bureau of~Investigation.
+\newblock {Regional Computer Forensics Laboratory Program} annual report fiscal
+  year 2012, 2014.
+
+\bibitem{porter:program80}
+Martin~F. Porter.
+\newblock An algorithm for suffix stripping.
+\newblock {\em Program}, 14(3):130--137, 1980.
+
+\bibitem{pythonsf:elementtree}
+{Python Software Foundation}.
+\newblock 20.5. \texttt{xml.etree.ElementTree} -- the {ElementTree} {XML}
+  {API}.
+\newblock https://docs.python.org/3.4/library/xml.etree.elementtree.html.
+\newblock Retrieved Feb. 21, 2016.
+
+\bibitem{roussev:ifip10}
+Vassil Roussev.
+\newblock Data fingerprinting with similarity digests.
+\newblock In Kam-Pui Chow and Sujeet Shenoi, editors, {\em Advances in Digital
+  Forensics VI}, volume 337 of {\em IFIP Advances in Information and
+  Communication Technology}, pages 207--226. Springer Berlin Heidelberg, 2010.
+
+\bibitem{roussev:ifip12}
+Vassil Roussev.
+\newblock Managing terabyte-scale investigations with similarity digests.
+\newblock In Gilbert Peterson and Sujeet Shenoi, editors, {\em Advances in
+  Digital Forensics VIII}, volume 383 of {\em IFIP Advances in Information and
+  Communication Technology}, pages 19--34. Springer Berlin Heidelberg, 2012.
+
+\bibitem{roussev:dfrws12}
+Vassil Roussev and Candice Quates.
+\newblock Content triage with similarity digests: The {M57} case study.
+\newblock In {\em Proceedings of the 12th Annual Digital Forensic Research
+  Workshop (DFRWS)}, August 2012.
+
+\bibitem{rowe:dfrws12}
+Neil~C. Rowe.
+\newblock Testing the {National Software Reference Library}.
+\newblock In {\em Proceedings of the 12th Annual Digital Forensic Research
+  Workshop (DFRWS)}, August 2012.
+
+\bibitem{US1261167A}
+Robert~C. Russell.
+\newblock {United States} patent 198,458, 1917.
+\newblock Issued 1918.
+
+\bibitem{seltzer:hotos09}
+Margo Seltzer and Nicholas Murphy.
+\newblock Hierarchical file systems are dead.
+\newblock In {\em Proceedings of the 12th Workshop on Hot Topics in Operating
+  Systems (HotOS-XII)}, 2009.
+
+\bibitem{tange:login11a}
+Ole Tange.
+\newblock {GNU Parallel} - the command-line power tool.
+\newblock {\em ;login: The USENIX Magazine}, 36(1):42--47, 2011.
+
+\bibitem{tebbutt:aafs14}
+John Tebbutt, Mary~T. Laamanen, and Alex~J. Nelson.
+\newblock Tracking the effects of software on systems: A forensic metadata
+  collection.
+\newblock In {\em Proceedings of the American Academy of Forensic Sciences 66th
+  Annual Scientific Meeting}, page 155, Seattle, WA, 2014. American Academy of
+  Forensic Sciences.
+
+\bibitem{thomassen:msthesis08}
+Jolanta Thomassen.
+\newblock Forensic analysis of unallocated space in {Windows Registry Hive}
+  files.
+\newblock M.sc. thesis, University of Liverpool, April 2008.
+
+\bibitem{tonkin:acro06}
+Emma Tonkin.
+\newblock Searching the long tail: Hidden structure in social tagging.
+\newblock {\em Advances in Classification Research Online}, 17(1):1--10, 2006.
+
+\bibitem{libxml2}
+Daniel Veillard.
+\newblock The {XML} {C} parser and toolkit of {Gnome}.
+\newblock \url{http://www.xmlsoft.org/}.
+\newblock Retrieved Feb. 21, 2016.
+
+\bibitem{waltermire:nistir8060}
+David Waltermire, Brant~A. Cheikes, Larry Feldman, and Greg Witte.
+\newblock Guidelines for the creation of interoperable software identification
+  ({SWID}) tags.
+\newblock Technical Report NISTIR 8060, National Institute of Standards and
+  Technology, 2016.
+
+\bibitem{mathworld:symmetricdifference}
+Eric~W. Weisstein.
+\newblock Symmetric difference.
+\newblock \url{http://mathworld.wolfram.com/SymmetricDifference.html}.
+\newblock From MathWorld -- A Wolfram Web Resource.
+
+\bibitem{white:aafs14}
+Douglas~R. White.
+\newblock The {National Software Reference Library}: Applications in digital
+  forensics.
+\newblock In {\em Proceedings of the American Academy of Forensic Sciences 66th
+  Annual Scientific Meeting}, pages 155--156, 2014.
+\newblock Presentation with abstract in proceedings.
+
+\bibitem{woods:adfsl11}
+Kam Woods, Christopher Lee, Simson Garfinkel, David Dittrich, Adam Russel, and
+  Kris Kearton.
+\newblock Creating realistic corpora for forensic and security education.
+\newblock In {\em 2011 ADFSL Conference on Digital Forensics, Security and
+  Law}, Richmond, VA, 2011. Elsevier.
+
+\bibitem{zhu:dfrws09}
+Yuandong Zhu, Pavel Gladyshev, and Joshua James.
+\newblock Using shellbag information to reconstruct user activities.
+\newblock In {\em Proceedings of the 9th Annual Digital Forensic Research
+  Workshop (DFRWS)}, 2009.
+
+\bibitem{zobel:sigir98}
+Justin Zobel and Alistair Moffat.
+\newblock Exploring the similarity space.
+\newblock {\em ACM SIGIR Forum}, 32(1):18--34, 1998.
+
+\end{thebibliography}

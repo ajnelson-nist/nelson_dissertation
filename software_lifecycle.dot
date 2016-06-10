@@ -1,0 +1,7 @@
+digraph "lifecycle" {
+  rankdir=LR;
+  Baseline -> Install;
+  Install -> Run;
+  Run -> Uninstall;
+  Uninstall -> Reboot;
+}

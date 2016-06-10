@@ -1,3 +1,18 @@
+#!/usr/bin/make -f
+
+# For changes made after April 1, 2016:
+#
+# This software was developed at the National Institute of Standards
+# and Technology by employees of the Federal Government in the course
+# of their official duties. Pursuant to title 17 Section 105 of the
+# United States Code this software is not subject to copyright
+# protection and is in the public domain. NIST assumes no
+# responsibility whatsoever for its use by other parties, and makes
+# no guarantees, expressed or implied, about its quality,
+# reliability, or any other characteristic.
+#
+# We would appreciate acknowledgement if the software is used.
+
 #
 # Makefile (gnu make)
 #
@@ -18,13 +33,12 @@
 # configuration parameters (BEGIN)
 ##############################################################################
 
-PAPER = uctest
+PAPER = nelson-dissertation
 DIRNAME = thesis-phd
-GRAPHICS =
-BIBS = uctest.bib
-BIBTEX = bibtex
+GRAPHICS =  #NOTE Need graphics? Run `make -f diagrams.mk`
 TEX = latex
 EPSGRAPHICSFILES =
+SHELL = /bin/bash
 
 # PDFMETHOD is one of {pdftex, dvipdfm, ps2pdf}
 # for PDF output, pdftex is probably best
@@ -40,8 +54,6 @@ default: view
 ##############################################################################
 # configuration parameters (END)
 ##############################################################################
-
-
 
 ##############################################################################
 # .pdf, .ps, .dvi - Acrobat, PostScript, and DVI files (BEGIN)
@@ -76,8 +88,9 @@ PDFGRAPHICSFILES := $(patsubst %.eps,%.pdf,$(EPSGRAPHICSFILES))
 #
 
 TEX = pdflatex
-$(PAPER).pdf: $(PAPER).tex *.tex $(BIBS) $(PDFGRAPHICSFILES)
-	$(TEX) $(PAPER); ${BIBTEX} $(PAPER); $(TEX) $(PAPER); $(TEX) $(PAPER)
+$(PAPER).pdf: $(PAPER).tex *.tex nelson-dissertation.bbl $(PDFGRAPHICSFILES) $(GRAPHICS)
+	$(MAKE) -f diagrams.mk
+	$(TEX) $(PAPER); $(TEX) $(PAPER); $(TEX) $(PAPER)
 endif # pdftex
 
 
@@ -92,8 +105,9 @@ $(PAPER).pdf: $(PAPER).dvi
 $(PAPER).ps: $(PAPER).dvi
 	dvips -t letter $(PAPER) -o
 
-$(PAPER).dvi: $(PAPER).tex *.tex $(BIBS) $(GRAPHICS) $(EPSGRAPHICSFILES)
-	$(TEX) $(PAPER); ${BIBTEX} $(PAPER); $(TEX) $(PAPER); $(TEX) $(PAPER)
+$(PAPER).dvi: $(PAPER).tex *.tex nelson-dissertation.bbl $(GRAPHICS) $(EPSGRAPHICSFILES)
+	$(MAKE) -f diagrams.mk
+	$(TEX) $(PAPER); $(TEX) $(PAPER); $(TEX) $(PAPER)
 
 endif # dvipdfm
 
@@ -109,8 +123,9 @@ $(PAPER).pdf: $(PAPER).ps
 $(PAPER).ps: $(PAPER).dvi
 	dvips -Ppdf -t letter $(PAPER) -o
 
-$(PAPER).dvi: $(PAPER).tex *.tex $(BIBS) $(GRAPHICS) $(EPSGRAPHICSFILES)
-	$(TEX) $(PAPER); ${BIBTEX} $(PAPER); $(TEX) $(PAPER); $(TEX) $(PAPER)
+$(PAPER).dvi: $(PAPER).tex *.tex nelson-dissertation.bbl $(GRAPHICS) $(EPSGRAPHICSFILES)
+	$(MAKE) -f diagrams.mk
+	$(TEX) $(PAPER); $(TEX) $(PAPER); $(TEX) $(PAPER)
 
 endif # ps2pdf
 
@@ -135,7 +150,7 @@ pdf: $(PAPER).pdf
 # clean: remove intermediate files (leave .ps and .pdf alone)
 #
 clean:
-	$(RM) -f *.aux *.bbl *.blg *.dvi *.lof *.log *.lot *.toc $(PAPER).out
+	$(RM) -f *.aux *.blg *.dvi *.lof *.log *.lot *.toc $(PAPER).out
 
 #
 # clean-all: all files PLUS pdf and ps files
@@ -155,7 +170,8 @@ clean-all: clean
 #  cygstart $(PAPER).pdf
 
 view: pdf
-	open $(PAPER).pdf
+	grep 'Warning:' nelson-dissertation.log
+	if test $$(uname) == "Darwin" ; then open $(PAPER).pdf ; elif test $$(uname) == "Linux" ; then evince $(PAPER).pdf ; fi
 
 view-cygwin: pdf
 	cygstart $(PAPER).pdf
@@ -174,4 +190,3 @@ release: clean-all
 ##############################################################################
 # Custom rules
 ##############################################################################
-

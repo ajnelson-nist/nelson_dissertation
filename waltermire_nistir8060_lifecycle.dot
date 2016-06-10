@@ -1,0 +1,14 @@
+digraph "lifecycle" {
+  rankdir=LR;
+
+  Deployed [label="Installation\nmedia\ndeployed"];
+  Installed [label="Product\nInstalled"];
+  Patched [label="Product\nPatched"];
+  Upgraded [label="Product\nUpgraded"];
+  Removed [label="Product\nRemoved"];
+
+  Deployed -> Installed;
+  Installed -> Patched;
+  Patched -> Upgraded;
+  Upgraded -> Removed;
+}

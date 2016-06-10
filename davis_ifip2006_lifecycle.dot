@@ -1,0 +1,25 @@
+digraph "lifecycle" {
+
+  subgraph "cluster_one" {
+    graph [style="invis"];
+    Downloaded -> Installed;
+    Installed -> Run;
+    Run -> Uninstalled;
+  }
+
+  Downloaded -> Deleted;
+  Installed -> Deleted;
+  Run -> Deleted;
+
+  subgraph "cluster_two" {
+    graph [style="invis"];
+    Updated -> Deleted;
+  }
+
+  Run -> Updated;
+  Updated -> Run;
+
+  Installed -> Uninstalled;
+
+  Run -> Run;
+}

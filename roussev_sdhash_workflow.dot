@@ -1,0 +1,17 @@
+digraph workflow {
+	rankdir=LR;
+	FILES [label = "Extracted files"];
+	SDHASH [label = "sdhash"];
+	RESULT [label = "Result:\nList of files\nfound in RAM", shape="square"];
+
+	VM [label = "Input:\nVirtual machine", shape="square"];
+	DISKIMAGE [label = "Disk image"];
+	RAM [label = "RAM"];
+
+	VM -> DISKIMAGE;
+	VM -> RAM;
+	DISKIMAGE -> FILES;
+	FILES -> SDHASH;
+	RAM -> SDHASH;
+	SDHASH -> RESULT;
+}
