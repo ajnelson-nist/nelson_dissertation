@@ -2,7 +2,7 @@
 
 This is the LaTeX source for the Ph.D. thesis:
 
-    Alexander J. Nelson, Software signature derivation from sequential digital forensic analysis. Ph.D. thesis, University of California, Santa Cruz, 1156 High Street, Santa Cruz, CA 95064, June 2016. 
+    Alexander J. Nelson, Software signature derivation from sequential digital forensic analysis. Ph.D. thesis, University of California, Santa Cruz, 1156 High Street, Santa Cruz, CA 95064, June 2016.
 
 This code is provided as reference for future students, and as a map of which figure files in the [results repository](https://github.com/ajnelson-nist/software_signature_search_results) map to which figures in the text.
 
@@ -23,3 +23,10 @@ I have moved the original README---as packaged and shared by Lawrence You, and t
 The bibliography `.bbl` file in this repository has been pre-computed, and the `bibtex` commands removed from the build process.
 
 I was informed that the abstract pages need to have Roman numerals, so there is one modification to `ucthesis.cls` to display those numerals.
+
+
+## Related resources
+
+* [Thesis publication](https://escholarship.org/uc/item/8j01v7mf)
+* [Pre-computed results used in thesis](https://github.com/ajnelson-nist/software_signature_search_results)
+* [Code used to generate pre-computed results](https://github.com/ajnelson-nist/software_signature_search_evaluation)
